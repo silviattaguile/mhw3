@@ -1,0 +1,301 @@
+        body {
+            margin: 10px;
+        }
+        
+        @media (max-width: 500px) {
+            body {
+                font-size: 14px;
+            }
+        }
+        
+        #overlay {
+            background-color: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        
+        a {
+            font-weight: bold;
+            font-size: 20px;
+            background-color: grey;
+            color: white;
+            padding: 4px 15px;
+            border-radius: 50px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: Helvetica, sans-serif;
+            height: 50px;
+        }
+        
+        @media (max-width:500px) {
+            a {
+                font-size: 14px;
+            }
+        }
+        
+        header {
+            font-size: 36px;
+            font-weight: normal;
+            color: white;
+            background-image: url('images/persuasione.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        @media (max-width:500px) {
+            header {
+                height: 300px;
+                width: 1.2;
+            }
+        }
+        
+        header p {
+            font-family: "Lora";
+            z-index: 1;
+            max-width: 780px;
+            color: white;
+        }
+        
+        @media (max-width:500px) {
+            header p {
+                font-size: 20px;
+            }
+        }
+        
+        #profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #profile img {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid white;
+            border-radius: 100%;
+            margin-top: -50px;
+        }
+        
+        #profile h2 {
+            color: black;
+            font-weight: normal;
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        section {
+            margin-top: 60px;
+        }
+        
+        @media (max-width:500px) {
+            section {
+                margin: 40px 10px;
+            }
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            margin-left: 40px;
+            margin-right: 40px;
+            justify-content: center;
+            margin-bottom: 120px;
+        }
+        
+        @media (max-width:500px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+        
+        .flex-container h3 {
+            color: blue;
+        }
+        
+        .flex-container img {
+            width: 100%
+        }
+        
+        .spotify {
+            background-image: url("spotify.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .api_spotify {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .form {
+            width: 70%;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+        }
+        
+        .form2 {
+            width: 70%;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+        }
+        
+        .logo {
+            height: max-content;
+            width: 300px;
+        }
+        
+        .api_spotify #ricerca {
+            flex-direction: row;
+            margin: 20px;
+        }
+        
+        .api_spotify p {
+            color: black;
+            font-size: 40px;
+            margin: 0;
+        }
+        
+        #album {
+            background-color: lightgrey;
+            border: 1px solid transparent;
+            font-size: 16px;
+            border-radius: 30px;
+            width: 300px;
+            height: 40px;
+        }
+        
+        #author {
+            background-color: lightgrey;
+            border: 1px solid transparent;
+            font-size: 16px;
+            border-radius: 30px;
+            width: 300px;
+            height: 40px;
+        }
+        
+        #submit {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(30, 215, 95);
+            margin-left: 5px;
+            border: 1px solid transparent;
+            width: 100px;
+            height: 45px;
+            border-radius: 30px;
+        }
+        
+        #submit2 {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(29, 174, 194);
+            margin-left: 5px;
+            border: 1px solid transparent;
+            width: 100px;
+            height: 45px;
+            border-radius: 30px;
+        }
+        
+        #album_view {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .stile {
+            border-radius: 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .stile img {
+            margin: 15px;
+            align-items: center;
+            border-radius: 10px;
+        }
+        
+        .stile a {
+            margin: 10px;
+        }
+        
+        #album_view .album {
+            border: 1px solid slategray;
+            padding: 5px;
+            max-width: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #album_view img {
+            max-width: 30%;
+        }
+        
+        footer {
+            background-color: rgb(31, 31, 31);
+            color: rgba(255, 255, 255, .8);
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+        
+        footer p {
+            color: rgba(255, 255, 255, .4);
+        }
+        
+        
+        #developer {
+            text-align: center;
+            margin-top: 0px;
+            line-height: 24px;
+        }
+        
+        #developer div {
+            height: 2px;
+            background-color: #e6e6e6;
+            margin-top: 10px;
+        }
+        
+        #library-view {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #library-view .book {
+            margin: 10px;
+            border: 1px solid slategray;
+            padding: 5px;
+            max-width: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #library-view img {
+            max-width: 100%;
+        }
